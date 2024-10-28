@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- link bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <script src="path/to/dist/feather.js"></script>
+
+    <style>
+    .social-icons a {
+        text-decoration: none; /* Menghilangkan garis bawah */
+        outline: none; /* Menghilangkan outline saat diklik */
+        border: none; /* Menghilangkan border */
+    }
+
+    .social-icons a:focus {
+        outline: none; /* Menghilangkan outline saat fokus */
+    }
+
+@media (max-width: 768px) {
+    .display-2 {
+        font-size: 2rem;
+    }
+    .display-6 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    #hero {
+        padding: 30px 0;
+    }
+}
+
+.responsive-iframe {
+    position: relative;
+    padding-bottom: 56.25%; /* Rasio aspek 16:9 */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+}
+
+.responsive-iframe iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+</style>
+
+    </style>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- navigation section -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">Daily Jurnal</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#gallery">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#article">Article</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+
+    <!-- hero section -->
+    <section id="hero" style="background-color: #e9ecef; padding: 60px 0;">
+        <div class="container text-sm-start">
+          <div class="d-sm-flex flex-sm-row-reverse align-items-center">
+            <img src="./gambar/06e71435913eb02d5b0474db57871740.jpg" class="img-fluid me-sm-4" width="300" alt="Image description">
+            <div class="text-center text-sm-start">
+              <h1 class="fw-bold display-2">Manchester United</h1>
+              <h4 class="lead display-7">Gambar ini menunjukkan momen ikonik ketika para pemain Manchester United merayakan kemenangan mereka dengan mengangkat trofi Liga Premier Inggris (EPL).
+                 Dengan senyum dan sorak sorai, para pemain berkumpul di sekitar kapten yang memegang piala tinggi di atas kepala, 
+                simbol keberhasilan mereka dalam mencapai puncak kompetisi liga.</h4>
+            </div>
+          </div>
+        </div>
+        <br><br><br>
+      </section>      
+
+    <!-- article section -->
+    <section id="article"  style="background-color: #e9ecef; padding: 60px 0;">
+        <div class="container text-center">
+          <h2 class="fw-bold display-6">Article</h2>
+          <div class="row justify-content-center">
+            <!-- Card 1 -->
+            <div class="card m-3" style="width: 18rem;">
+              <img src="./gambar/06e71435913eb02d5b0474db57871740.jpg" class="card-img-top" alt="Gambar Artikel 1">
+              <div class="card-body">
+                <h5 class="card-title">Senin, 11 September 2023</h5>
+                <p class="card-text">Gambar ini menunjukkan momen ikonik ketika para pemain Manchester United merayakan kemenangan mereka dengan mengangkat trofi Liga Premier Inggris (EPL).
+                    Dengan senyum dan sorak sorai, para pemain berkumpul di sekitar kapten yang memegang piala tinggi di atas kepala, 
+                   simbol keberhasilan mereka dalam mencapai puncak kompetisi liga.</div>
+            </div>
+            <!-- Card 2 -->
+            <div class="card m-3" style="width: 18rem;">
+              <img src="./gambar/333ebb95b7f1774b49fc1b34fa9b26de.jpg" class="card-img-top" alt="Gambar Artikel 2">
+              <div class="card-body">
+                <h5 class="card-title">Selasa, 12 September 2023</h5>
+                <p class="card-text">Ekspresi wajah mereka mencerminkan kebahagiaan dan kepuasan, hasil dari kerja keras, dedikasi, dan kolaborasi tim. Momen ini bukan hanya tentang trofi yang dimenangkan, tetapi juga tentang persahabatan dan komitmen yang terjalin di antara para pemain. Keberhasilan ini mengukuhkan Manchester United sebagai salah satu klub terkemuka dalam sejarah sepak bola Inggris.</div>
+            </div>
+            <!-- Card 3 -->
+            <div class="card m-3" style="width: 18rem;">
+              <img src="./gambar/37d50fe09448fa3b795a7f19166afd2b.jpg" class="card-img-top" alt="Gambar Artikel 3">
+              <div class="card-body">
+                <h5 class="card-title">Rabu, 13 September 2023</h5>
+                <p class="card-text">Dengan wajah ceria dan senyum lebar, ketiga pemain ini merayakan pencapaian mereka dengan semangat yang menggebu-gebu. Momen ini tidak hanya menandakan keberhasilan di lapangan, tetapi juga ikatan kuat antara mereka sebagai rekan satu tim. Gaya santai mereka dalam merayakan kemenangan menyoroti rasa camaraderie dan harapan akan masa depan yang cerah bagi Manchester United.</div>
+            </div>
+            <!-- Card 4 -->
+            <div class="card m-3" style="width: 18rem;">
+              <img src="./gambar/39ce2c2fa7a86965d8663e766b70a8ab.jpg" class="card-img-top" alt="Gambar Artikel 4">
+              <div class="card-body">
+                <h5 class="card-title">Kamis, 14 September 2023</h5>
+                <p class="card-text">Dalam gambar tersebut, seorang pemain Manchester United terlihat tegang dan fokus saat bersiap untuk mengeksekusi tendangan penalti. Ekspresi wajahnya mencerminkan campuran antara ketegangan dan determinasi, menunjukkan betapa pentingnya momen ini bagi tim dan dirinya pribadi. Dengan bola di depan, dia mengatur napas dan memusatkan perhatian, sementara rekan-rekannya dan penonton menyaksikan dengan antusiasme dan harapan.</div>
+            </div>
+            <!-- Card 5 -->
+            <div class="card m-3" style="width: 18rem;">
+              <img src="./gambar/69ec278e6869eeb8a187a2fbde43a056.jpg" class="card-img-top" alt="Gambar Artikel 5">
+              <div class="card-body">
+                <h5 class="card-title">Jumat, 15 September 2023</h5>
+                <p class="card-text">Logo Manchester United adalah simbol ikonik yang mewakili klub sepak bola yang kaya sejarah dan prestasi. Logo ini terdiri dari gambar setan yang sedang memegang trisula, yang menjadi ciri khas klub. Setan tersebut berwarna merah, melambangkan kekuatan dan semangat juang, dan dikelilingi oleh lingkaran emas dengan tulisan “Manchester United” di bagian atas dan tahun pendirian klub, 1878, di bagian bawah.</div>
+            </div>
+            <!-- Card 6 -->
+            <div class="card m-3" style="width: 18rem;">
+              <img src="./gambar/b8563131f893fe4979a9d1b9d978e5a0.jpg" class="card-img-top" alt="Gambar Artikel 6">
+              <div class="card-body">
+                <h5 class="card-title">Sabtu, 16 September 2023</h5>
+                <p class="card-text">Dalam gambar tersebut, seorang pemain Manchester United tampak mengangkat beberapa piala dengan penuh kebanggaan dan kegembiraan setelah meraih prestasi luar biasa sebagai treble winner. Ekspresi wajahnya yang ceria mencerminkan momen bahagia dan rasa syukur atas kerja keras yang telah dilakukan oleh seluruh tim sepanjang musim.</div>
+            </div>
+          </div>
+        </div>
+        <br><br><br>
+      </section>
+      
+
+    <!-- gallery section -->
+    <section id="gallery"  style="background-color: #e9ecef; padding: 60px 0;">
+        <h2 class="text-center fw-bold display-6">Gallery</h2>
+        
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <!-- Item Pertama -->
+                <div class="carousel-item active">
+                    <div class="d-flex justify-content-center">
+                        <img src="./gambar/06e71435913eb02d5b0474db57871740.jpg" class="d-block" style="max-width: 90%; height: auto;" alt="Gambar 1">
+                    </div>
+                </div>
+                <!-- Item Kedua -->
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                        <img src="./gambar/333ebb95b7f1774b49fc1b34fa9b26de.jpg" class="d-block" style="max-width: 90%; height: auto;" alt="Gambar 2">
+                    </div>
+                </div>
+                <!-- Item Ketiga -->
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                        <img src="./gambar/37d50fe09448fa3b795a7f19166afd2b.jpg" class="d-block" style="max-width: 90%; height: auto;" alt="Gambar 3">
+                    </div>
+                </div>
+                <!-- Item Keempat -->
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                        <img src="./gambar/39ce2c2fa7a86965d8663e766b70a8ab.jpg" class="d-block" style="max-width: 90%; height: auto;" alt="Gambar 4">
+                    </div>
+                </div>
+                <!-- Item Kelima -->
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                        <img src="./gambar/69ec278e6869eeb8a187a2fbde43a056.jpg" class="d-block" style="max-width: 90%; height: auto;" alt="Gambar 5">
+                    </div>
+                </div>
+                <!-- Item Keenam -->
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                        <img src="./gambar/b8563131f893fe4979a9d1b9d978e5a0.jpg" class="d-block" style="max-width: 90%; height: auto;" alt="Gambar 6">
+                    </div>
+                </div>
+                <!-- Item Ketujuh -->
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                        <img src="./gambar/cf2220dd9d36b0589c346ce11dd7700f.jpg" class="d-block" style="max-width: 90%; height: auto;" alt="Gambar 7">
+                    </div>
+                </div>
+                <!-- Item Kedelapan -->
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                        <img src="./gambar/f030332428b77eb21f417aca5abdced7.jpg" class="d-block" style="max-width: 90%; height: auto;" alt="Gambar 8">
+                    </div>
+                </div>
+                <!-- Item Kesembilan -->
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                        <img src="./gambar/f129ded9dc88bde9ae734ad627ad8cce.jpg" class="d-block" style="max-width: 90%; height: auto;" alt="Gambar 9">
+                    </div>
+                </div>
+                <!-- Item Kesepuluh -->
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-center">
+                        <img src="./gambar/f5df9af8497d3fd7493499011ff63a65.jpg" class="d-block" style="max-width: 90%; height: auto;" alt="Gambar 10">
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Kontrol Carousel -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <br><br>
+    
+        <div class="video text-center">
+            <h2><b>-Video-</b></h2>
+            <div class="responsive-iframe">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/JuRD8gSdmps?si=fde7JAePqzXtS7y9" 
+                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+                        encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+        
+    </section>
+    
+    <!-- footer -->
+    <footer class="bg-light text-center p-3">
+        <div class="social-icons">
+            <a href="https://www.instagram.com/yustrrrrr" class="h2 p-2 text-dark" target="_blank">
+                <i class="bi bi-instagram"></i> <!-- Gunakan ikon dari Bootstrap Icons -->
+            </a>
+            <a href="https://twitter.com" class="h2 p-2 text-dark" target="_blank">
+                <i class="bi bi-twitter"></i> <!-- Gunakan ikon dari Bootstrap Icons -->
+            </a>
+            <a href="https://wa.me/6287700313085" class="h2 p-2 text-dark" target="_blank">
+                <i class="bi bi-whatsapp"></i> <!-- Gunakan ikon dari Bootstrap Icons -->
+            </a>
+        </div>
+        <div class="copyright text-dark mt-2">
+            <p>&copy; 2024 Daily Jurnal. Sulthan Yustr Suwardhi.</p>
+        </div>
+    </footer>
+</body>
+</html>
